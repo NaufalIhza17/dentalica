@@ -24,8 +24,20 @@ export default function MedicalRecord() {
           the dental team and the patient.
         </p>
       </div>
-      <Image src={Phones} alt="" width={809} height={706.19} className="relative z-20" />
-      <Image src={Disc} alt="" width={750} height={750} className="absolute top-52 left-1/2 transform -translate-x-1/2 z-0" />
+      <Image
+        src={Phones}
+        alt=""
+        width={809}
+        height={706.19}
+        className="relative z-20"
+      />
+      <Image
+        src={Disc}
+        alt=""
+        width={750}
+        height={750}
+        className="absolute top-52 left-1/2 transform -translate-x-1/2 z-0"
+      />
       <div className="h-[236px] w-full absolute z-30 bottom-0 bg-gradient-to-t from-white from-55% to-transparent"></div>
     </section>
   );
