@@ -5,6 +5,11 @@ import useWindowWidth from "@/hooks/useWindowWidth";
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Appointment from "@/components/Appointment";
+import FeaturesAssignment from "@/components/FeaturesAssignment";
+import Schedule from "@/components/Schedule";
+import Footer from "@/components/Footer";
+import MedicalRecord from "@/components/MedicalRecord";
 
 export default function Home() {
   const windowWidth = useWindowWidth();
@@ -30,7 +35,11 @@ export default function Home() {
           <Navbar />
         </div>
         <Hero />
-        a
+        <Appointment />
+        <FeaturesAssignment />
+        <Schedule />
+        <MedicalRecord />
+        <Footer />
       </main>
     );
   }
